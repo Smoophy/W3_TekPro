@@ -1,0 +1,18 @@
+
+/**
+ * @author Muhammad Alvyn Adhianto
+ */
+
+import java.util.Scanner;
+
+public class Soal6 {
+    public static void main(String[] args) {
+        try (Scanner input = new Scanner(System.in)) {
+            int num1 = input.nextInt();
+            int num2 = input.nextInt();
+
+            System.out.println(num1 + num2);
+            System.out.println(num1 * num2);
+        }
+    }
+}
